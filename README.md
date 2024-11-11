@@ -21,6 +21,7 @@ Esta api rest permite al cliente gestionar sus fondos de inversion
 
 * **Java Version**: 17.
 * **Spring Boot Version**:  3.2.5
+* **Gradle Version**: 7.5
 
 ## ¿Como probar?
 Se agrega colleccion postman para realizar las pruebas: prueba-tecnica-btg.postman_collection.json
