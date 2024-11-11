@@ -1,0 +1,15 @@
+rootProject.name = 'btg-voluntary-pension-found'
+
+include ':vpf-service'
+project(':vpf-service').projectDir = file('./applications/vpf-service')
+
+include ':model'
+project(':model').projectDir = file('./domain/model')
+include ':usecase'
+project(':usecase').projectDir = file('./domain/usecase')
+
+
+include ':persistence'
+project(':persistence').projectDir = file('./infrastructure/driven-adapters/persistence')
+include ':web-vpf'
+project(':web-vpf').projectDir = file('./infrastructure/entry-points/web-vpf')
